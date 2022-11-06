@@ -1,0 +1,2003 @@
+/* 
+1024 - 1280
+480 - 768
+all - 480
+*/
+*{ 
+    margin:0; 
+    padding:0; 
+}
+body{ 
+    text-align: center;
+}
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+    body{
+        margin: auto;
+    }
+    #back{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    #logo{
+        position: absolute;
+        top: 1vw;
+        left: 21%;
+        width: 3.2%;
+    }
+    #menu{
+        position: absolute;
+        top: 1.6vw;
+        left: 76.3%;
+        width: 2.55%;
+    }
+    .container{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #header_text1{
+        padding-top: 10%;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.35vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    #header_text2{
+        padding-top: 10px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9vw;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    .numbers{
+        float: left;
+        position: relative;
+        background: #F7F7F7;
+        margin-top: 7.5%;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 15.5vw;
+    }
+    .numbers_item1, .numbers_item2, .numbers_item3, .numbers_item4{
+        position: absolute;
+        margin-left: 6.5vw;
+        margin-top: 2.8vw;
+        width: 10vw;
+        height: 10vw;
+        text-align: center;
+    }
+    .numbers_item1{ margin-left: 6.5vw; }
+    .numbers_item2{ margin-left: 18.1vw; }
+    .numbers_item3{ margin-left: 29.7vw; }
+    .numbers_item4{ margin-left: 41.3vw; }
+    #nt1{
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #nt2{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    #nt3{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        text-align: center;
+        color: #999999;
+    }
+    .project{
+        margin-top: 29vw;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 35vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.89vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item1{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item2{
+        position: absolute;
+        margin-left: 19.8vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item3{
+        position: absolute;
+        margin-left: 39.5vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item{
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    #project_img{
+        float: left;
+        width: 18.2vw;
+    }
+    .project_line{
+        position: relative;
+        background-color: #F7654A;
+        top: 22vw;
+        width: 2.9vw;
+        height: 0.3vw;
+    }
+    #project_text1{
+        padding-top: 3.5vw;
+        float: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25vw;
+        color: #404149;
+    }
+    #project_text2{
+        padding-top: 25.5vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.83vw;
+        line-height: 1.173vw;
+        
+        color: #999999;
+    }
+    .request{
+        position: absolute;
+        margin-top: 8vw;
+        height: 11vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 0.7vw;
+        margin-left: 21.2vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        line-height: 71px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        text-align: left;
+        position: absolute;
+        margin-top: -0.6vw;
+        margin-left: 21.5vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.20vw;
+        line-height: 2vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: -2.5vw;
+        margin-left: 70.2vw;
+        width: 8.9vw;
+        height: 2.3vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 0.7vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 1vw;
+        height: 1vw;
+    }
+    #request_button_text{
+        width: 7vw;
+        padding-left: 1vw;
+        padding-top: 0.49vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.7vw;
+        color: #000000;
+    }
+    .services{
+        position: absolute;
+        margin-left: 21.5vw;
+        margin-top: 25vw;
+        width: 57.5vw;
+        height: 33vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group{
+        float: left;
+        margin-top: 3.8vw;
+        width: 18vw;
+        height: 13vw;
+    }
+    #services_group_img{
+        margin-top: 1.5vw;
+        width: 5.1vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+    }
+    .portfolio{
+        margin-top: 66vw;
+        width: 100vw;
+        height: 42vw;
+        background-color: blue;
+    }
+    #portfolio_img, #portfolio_img1, #portfolio_img2{
+        float: left;
+        width: 25vw;
+    }
+    .question{
+        margin-top: 8.25vw;
+        margin-left: 21vw;
+        width: 38vw;
+        height: 24vw;
+    }
+    #question_head_text{
+        text-align: right;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        
+        color: #000000;
+    }
+    .question_item{
+        padding-top: 0.5vw;
+        margin-top: 2.8vw;
+        width: 25vw;
+        height: 1vw;
+    }
+    .question_item2{
+        padding-top: 1vw;
+        width: 25vw;
+        height: 1vw;
+    }
+    .question_item_open{
+        padding-top: 0.5vw;
+        margin-top: 2.8vw;
+        width: 38vw;
+        height: 7vw;
+    }
+    #question_item_img{
+        width: 0.8vw;
+        float: left;
+    }
+    #question_text{
+        margin-top: -0.5vw;
+        text-align: left;
+        margin-left: 1.5vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        color: #F7654A;
+    }
+    #question_text2{
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9vw;
+        line-height: 1vw;
+        color: #999999;
+    }
+    .partners{
+        margin-top: 8vw;
+        width: 100vw;
+        height: 18.5vw;
+        background: #404149;
+    }
+    .partners_box{
+        margin-left: 23vw;
+        width: 54vw;
+        height: 6vw;
+    }
+    #partners_text{
+        padding-top: 4vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 5vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #partners_img{
+        float: left;
+        margin-top: 1vw;
+        width: 4.5vw;
+        margin-left: 0.77vw;
+    }
+    .reviews{
+        width: 58vw;
+        height: 22.6vw;
+        margin-top: 8vw;
+        margin-left: 21vw;
+    }
+    #reviews_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .reviews_item{
+        float: left;
+        margin-top: 3.3vw;
+        width: 18.2vw;
+        height: 16.6vw;
+    }
+    .reviews_item2{
+        margin-left: 1.7vw;
+        float: left;
+        margin-top: 3.3vw;
+        width: 18.2vw;
+        height: 16.6vw;
+    }
+    #reviews_text1{
+        margin-left: 1.5vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5vw;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #reviews_text2{
+        margin-left: 1.5vw;
+        margin-top: -3.1vw;
+        width: 16vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.775vw;
+        color: #999999;
+    }
+    #reviews_text3{
+        margin-top: 3.4vw;
+        margin-left: -1.7vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.05vw;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .request2{
+        position: absolute;
+        margin-top: 8vw;
+        height: 10vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    .contacts{
+        margin-top: 23vw;
+        margin-left: 21.1vw;
+        width: 58vw;
+        height: 16vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    .contacts_item2{
+        float: left;
+        margin-left: 1.73vw;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 2vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        line-height: 1.7vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.32vw;
+        line-height: 2vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 20vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+}
+@media all and (min-width: 769px) and (max-width: 1024px) { 
+    body{
+        margin: auto;
+    }
+    #back{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+    }
+    #logo{
+        position: absolute;
+        top: 1vw;
+        left: 21%;
+        width: 3.2%;
+    }
+    #menu{
+        position: absolute;
+        top: 1.6vw;
+        left: 76.3%;
+        width: 2.55%;
+    }
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #header_text1{
+        padding-top: 10%;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.35vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    #header_text2{
+        padding-top: 10px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9vw;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    .numbers{
+        position: relative;
+        background: #F7F7F7;
+        margin-top: 7.5%;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 15.5vw;
+    }
+    .numbers_item1, .numbers_item2, .numbers_item3, .numbers_item4{
+        position: absolute;
+        margin-left: 6.5vw;
+        margin-top: 2.8vw;
+        width: 10vw;
+        height: 10vw;
+        text-align: center;
+    }
+    .numbers_item1{ margin-left: 6.5vw; }
+    .numbers_item2{ margin-left: 18.1vw; }
+    .numbers_item3{ margin-left: 29.7vw; }
+    .numbers_item4{ margin-left: 41.3vw; }
+    #nt1{
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #nt2{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    #nt3{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        text-align: center;
+        color: #999999;
+    }
+    .project{
+        margin-top: 6vw;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 35vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.89vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item1{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item2{
+        position: absolute;
+        margin-left: 19.8vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item3{
+        position: absolute;
+        margin-left: 39.5vw;
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    .project_item{
+        margin-top: 2.8vw;
+        width: 18.2vw;
+        height: 30vw;
+    }
+    #project_img{
+        float: left;
+        width: 18.2vw;
+    }
+    .project_line{
+        position: relative;
+        background-color: #F7654A;
+        top: 22vw;
+        width: 2.9vw;
+        height: 0.3vw;
+    }
+    #project_text1{
+        padding-top: 3.5vw;
+        float: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25vw;
+        color: #404149;
+    }
+    #project_text2{
+        padding-top: 25.5vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.83vw;
+        line-height: 1.173vw;
+        
+        color: #999999;
+    }
+    .request{
+        position: absolute;
+        margin-top: 8vw;
+        height: 11vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 0.7vw;
+        margin-left: 21.2vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        line-height: 5vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        text-align: left;
+        position: absolute;
+        margin-top: -0.6vw;
+        margin-left: 21.5vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.20vw;
+        line-height: 2vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: -2.5vw;
+        margin-left: 70.2vw;
+        width: 8.9vw;
+        height: 2.3vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 0.7vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 1vw;
+        height: 1vw;
+    }
+    #request_button_text{
+        width: 7vw;
+        padding-left: 1vw;
+        padding-top: 0.49vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.7vw;
+        color: #000000;
+    }
+    .services{
+        position: absolute;
+        margin-left: 21.5vw;
+        margin-top: 25vw;
+        width: 57.5vw;
+        height: 33vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group{
+        float: left;
+        margin-top: 3.8vw;
+        width: 18vw;
+        height: 13vw;
+    }
+    #services_group_img{
+        margin-top: 1.5vw;
+        width: 5.1vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+    }
+    .portfolio{
+        margin-top: 66vw;
+        width: 100vw;
+        height: 42vw;
+        background-color: blue;
+    }
+    #portfolio_img, #portfolio_img1, #portfolio_img2{
+        float: left;
+        width: 25vw;
+    }
+    .question{
+        margin-top: 8.25vw;
+        margin-left: 21vw;
+        width: 38vw;
+        height: 24vw;
+    }
+    #question_head_text{
+        text-align: right;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        
+        color: #000000;
+    }
+    .question_item{
+        padding-top: 0.5vw;
+        margin-top: 2.8vw;
+        width: 25vw;
+        height: 1vw;
+    }
+    .question_item2{
+        padding-top: 1vw;
+        width: 25vw;
+        height: 1vw;
+    }
+    .question_item_open{
+        padding-top: 0.5vw;
+        margin-top: 2.8vw;
+        width: 38vw;
+        height: 7vw;
+    }
+    #question_item_img{
+        float: left;
+        width: 0.7vw;
+    }
+    #question_text{
+        margin-top: -1.3vw;
+        text-align: left;
+        margin-left: 1.5vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        color: #F7654A;
+    }
+    #question_text2{
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9vw;
+        line-height: 1vw;
+        color: #999999;
+    }
+    .partners{
+        margin-top: 8vw;
+        width: 100vw;
+        height: 18.5vw;
+        background: #404149;
+    }
+    .partners_box{
+        margin-left: 23vw;
+        width: 54vw;
+        height: 6vw;
+    }
+    #partners_text{
+        padding-top: 4vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 5vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #partners_img{
+        float: left;
+        margin-top: 1vw;
+        width: 4.5vw;
+        margin-left: 0.77vw;
+    }
+    .reviews{
+        width: 58vw;
+        height: 22.6vw;
+        margin-top: 8vw;
+        margin-left: 21vw;
+    }
+    #reviews_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .reviews_item{
+        float: left;
+        margin-top: 3.3vw;
+        width: 18.2vw;
+        height: 16.6vw;
+    }
+    .reviews_item2{
+        margin-left: 1.7vw;
+        float: left;
+        margin-top: 3.3vw;
+        width: 18.2vw;
+        height: 16.6vw;
+    }
+    #reviews_text1{
+        margin-left: 1.5vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5vw;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #reviews_text2{
+        margin-left: 1.5vw;
+        margin-top: -3.1vw;
+        width: 16vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.775vw;
+        color: #999999;
+    }
+    #reviews_text3{
+        margin-top: 3.4vw;
+        margin-left: -1.7vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.05vw;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .request2{
+        position: absolute;
+        margin-top: 8vw;
+        height: 10vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    .contacts{
+        margin-top: 23vw;
+        margin-left: 21.1vw;
+        width: 58vw;
+        height: 16vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    .contacts_item2{
+        float: left;
+        margin-left: 1.73vw;
+        margin-top: 3.9vw;
+        width: 13.2vw;
+        height: 9.7vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 2vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        line-height: 1.7vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.32vw;
+        line-height: 2vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 20vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+}
+@media all and (min-width: 481px) and (max-width: 768px) { 
+    body{
+        margin: auto;
+    }
+    #back{
+        position: absolute;
+        left: -50%;
+        width: 150%;
+    }
+    #logo{
+        position: absolute;
+        top: 1vw;
+        left: 14%;
+        width: 6.2%;
+    }
+    #menu{
+        position: absolute;
+        top: 1.6vw;
+        left: 78.5%;
+        width: 5.55%;
+    }
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #header_text1{
+        padding-top: 15%;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4.35vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    #header_text2{
+        padding-top: 5px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    .numbers{
+        position: relative;
+        background: #F7F7F7;
+        margin-top: 15vw;
+        margin-left: 25%;
+        width: 50vw;
+        height: 22.5vw;
+    }
+    .numbers_item1, .numbers_item2, .numbers_item3, .numbers_item4{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 15vw;
+        height: 15vw;
+        text-align: center;
+    }
+    .numbers_item1{ margin-left: 5vw; }
+    .numbers_item2{ margin-left: 30vw; }
+    .numbers_item3{display: none;}
+    .numbers_item4{display: none;}
+    #nt1{
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 5.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #nt2{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    #nt3{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vw;
+        text-align: center;
+        color: #999999;
+    }
+    .project{
+        position: relative;
+        margin-top: 6vw;
+        margin-left: 21%;
+        width: 57.8vw;
+        height: 57.8vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item1{
+        position: absolute;
+        margin-top: 2.8vw;
+        width: 57.8vw;
+        height: 57.8vw;
+    }
+    .project_item2{
+        display: none;
+    }
+    .project_item3{
+        display: none;
+    }
+    .project_item1{
+        margin-top: 2.8vw;
+        width: 57vw;
+    }
+    #project_img{
+        margin-left: 1vw;
+        width: 40vw;
+    }
+    .project_line{
+        position: relative;
+        background-color: #F7654A;
+        top: 2vw;
+        margin-left: 4vw;
+        width: 50vw;
+        height: 0.3vw;
+    }
+    #project_text1{
+        margin-left: 1vw;
+        padding-top: 3vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        color: #404149;
+    }
+    #project_text2{
+        padding-top: 1vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.9vw;
+        line-height: 3vw;
+        
+        color: #999999;
+    }
+    .request{
+        position: absolute;
+        margin-top: 20vw;
+        height: 20vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 2vw;
+        text-align: center;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        padding-top: 2vw;
+        text-align: center;
+        margin-top: -0.6vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.20vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: 4vw;
+        margin-left: 43.5vw;
+        width: 13vw;
+        height: 4vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 1vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 2vw;
+        height: 2vw;
+    }
+    #request_button_text{
+        width: 15vw;
+        text-align: left;
+        padding-left: 4.2vw;
+        padding-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        color: #000000;
+    }
+    .services{
+        position: absolute;
+        margin-top: 50vw;
+        margin-left: 5vw;
+        width: 95vw;
+        height: 33vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group{
+        float: left;
+        margin-top: 3.8vw;
+        width: 30vw;
+        height: 20vw;
+    }
+    #services_group_img{
+        width: 20vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+    }
+    .portfolio{
+        margin-top: 110vw;
+        width: 100vw;
+        height: 42vw;
+        background-color: blue;
+    }
+    #portfolio_img{
+        display: none;
+    }
+    #portfolio_img1, #portfolio_img2{
+        float: left;
+        width: 50vw;
+    }
+    .question{
+        margin-top: 8.25vw;
+        margin-left: 20vw;
+        width: 60vw;
+        height: 24vw;
+    }
+    #question_head_text{
+        text-align: center;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        
+        color: #000000;
+    }
+    .question_item{
+        padding-top: 0.5vw;
+        margin-top: 2.8vw;
+        width: 38vw;
+        height: 1vw;
+    }
+    .question_item2{
+        padding-top: 3vw;
+        width: 38vw;
+        height: 1vw;
+    }
+    .question_item_open{
+        padding-top: 0.5vw;
+        margin-top: 2.8vw;
+        width: 60vw;
+        height: 7vw;
+    }
+    #question_item_img{
+        width: 1vw;
+        float: left;
+    }
+    #question_text{
+        margin-top: -0.5vw;
+        text-align: left;
+        margin-left: 2vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5vw;
+        color: #F7654A;
+    }
+    #question_text2{
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2vw;
+        line-height: 1.2vw;
+        color: #999999;
+    }
+    .partners{
+        margin-top: 8vw;
+        width: 100vw;
+        height: 18vw;
+        background: #404149;
+    }
+    .partners_box{
+        margin-left: 6vw;
+        width: 88vw;
+        height: 8vw;
+    }
+    #partners_text{
+        padding-top: 2vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #partners_img{
+        float: left;
+        margin-top: 1vw;
+        width: 8vw;
+        margin-left: 0.77vw;
+    }
+    .reviews{
+        width: 100vw;
+        height: 80vw;
+        margin-top: 8vw;
+    }
+    #reviews_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .reviews_item{
+        float: left;
+        margin-top: 3.3vw;
+        margin-left: 25vw;
+        width: 50vw;
+        height: 20vw;
+    }
+    .reviews_item2{
+        margin-left: 25vw;
+        float: left;
+        margin-top: 2vw;
+        width: 50vw;
+        height: 20vw;
+    }
+    #reviews_text1{
+        margin-left: 1.5vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5vw;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #reviews_text2{
+        margin-left: 1.5vw;
+        margin-top: -3.1vw;
+        width: 48vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        color: #999999;
+    }
+    #reviews_text3{
+        margin-top: 3.5vw;
+        margin-left: -26vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5vw;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .request2{
+        position: absolute;
+        margin-top: 5vw;
+        height: 20vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    .contacts{
+        margin-top: 23vw;
+        margin-left: 20vw;
+        width: 60vw;
+        height: 41vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.9vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 25vw;
+        height: 15vw;
+    }
+    .contacts_item2{
+        float: left;
+        margin-left: 10vw;
+        margin-top: 3.9vw;
+        width: 25vw;
+        height: 15vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 3vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.7vw;
+        line-height: 1.7vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2vw;
+        line-height: 3vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 20vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1vw;
+        color: #FFFFFF;
+    }
+}
+@media all and (max-width: 480px) {
+    body{
+        margin: auto;
+    }
+    #back{
+        position: absolute;
+        top: -50;
+        left: -100%;
+        width: 200%;
+    }
+    #logo{
+        position: absolute;
+        top: 1vw;
+        left: 21%;
+        width: 7.2%;
+    }
+    #menu{
+        position: absolute;
+        top: 1.6vw;
+        left: 76.3%;
+        width: 6.55%;
+    }
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #header_text1{
+        padding-top: 20%;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    #header_text2{
+        margin: auto;
+        padding-top: 0px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    .numbers{
+        position: relative;
+        background: #F7F7F7;
+        margin-top: 11%;
+        margin-left: 30%;
+        width: 40vw;
+        height: 40vw;
+    }
+    .numbers_item1, .numbers_item2, .numbers_item3, .numbers_item4{
+        position: absolute;
+        margin-left: 5vw;
+        margin-top: 2.8vw;
+        width: 30vw;
+        height: 30vw;
+        text-align: center;
+    }
+    .numbers_item2{display: none;}
+    .numbers_item3{display: none;}
+    .numbers_item4{display: none;}
+    #nt1{
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #nt2{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4.8vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    #nt3{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        text-align: center;
+        color: #999999;
+    }
+    .project{
+        margin: auto;
+        margin-top: 6vw;
+        width: 100vw;
+        height: 57.8vw;
+    }
+    #pht{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        text-align: center;
+        line-height: 2.35vw;
+        text-transform: uppercase;
+        color: #404149;
+    }
+    .project_item2{
+        display: none;
+    }
+    .project_item3{
+        display: none;
+    }
+    .project_item1{
+        margin-top: 2.8vw;
+        width: 90vw;
+        height: 57vw;
+    }
+    #project_img{
+        margin-left: -40vw;
+        width: 40vw;
+    }
+    .project_line{
+        position: absolute;
+        background-color: #F7654A;
+        margin-left: 48vw;
+        margin-top: -42vw;
+        width: 0.3vw;
+        height: 40vw;
+    }
+    #project_text1{
+        margin-top: -45vw;
+        margin-left: 50vw;
+        position: absolute;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        color: #404149;
+    }
+    #project_text2{
+        position: absolute;
+        margin-top: -35vw;
+        margin-left: 52vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.1vw;
+        line-height: 3.3vw;
+        
+        color: #999999;
+    }
+    .request{
+        position: absolute;
+        margin-top: 20vw;
+        height: 20vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    #request_text1{
+        padding-top: 1vw;
+        text-align: center;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    #request_text2{
+        padding-top: 1vw;
+        text-align: center;
+        margin-top: -0.6vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .request_button{
+        margin-top: 1.5vw;
+        margin-left: 43.5vw;
+        width: 13vw;
+        height: 4vw;
+        background: #FFFFFF;
+    }
+    #request_img{
+        margin-top: 1vw;
+        margin-left: 1.5vw;
+        float: left;
+        width: 2vw;
+        height: 2vw;
+    }
+    #request_button_text{
+        width: 15vw;
+        text-align: left;
+        padding-left: 4.2vw;
+        padding-top: 0.8vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.3vw;
+        color: #000000;
+    }
+    .services{
+        position: absolute;
+        margin-top: 50vw;
+        margin-left: 5vw;
+        width: 90vw;
+        height: 65.5vw;
+    }
+    #services_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 2.5vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .services_group{
+        margin-top: 5vw;
+        float: left;
+        width: 30vw;
+        height: 25vw;
+    }
+    #services_group_img{
+
+        margin-top: 1.5vw;
+        width: 20vw;
+    }
+    #services_group_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 0vw;
+        text-align: center;
+        letter-spacing: 0.02em;
+        
+        color: #000000;
+    }
+    .portfolio{
+        margin-top: 120vw;
+        width: 100vw;
+        height: 42vw;
+        background-color: blue;
+    }
+    #portfolio_img{
+        display: none;
+    }
+    #portfolio_img1, #portfolio_img2{
+        float: left;
+        width: 50vw;
+    }
+    .question{
+        margin-top: 8.25vw;
+        width: 100vw;
+        height: 45vw;
+    }
+    #question_head_text{
+        text-align: center;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 4vw;
+        line-height: 3vw;
+        text-transform: uppercase;
+        
+        color: #000000;
+    }
+    .question_item{
+        padding-top: 2vw;
+        margin-top: 2.8vw;
+        margin-left: 5vw;
+        width: 80vw;
+        height: 1vw;
+    }
+    .question_item2{
+        padding-top: 13vw;
+        margin-left: 5vw;
+        width: 80vw;
+        height: 1vw;
+    }
+    .question_item_open{
+        margin-left: 5vw;
+        padding-top: 2vw;
+        margin-top: 2.8vw;
+        width: 80vw;
+        height: 7vw;
+    }
+    #question_item_img{
+        position: relative;
+        width: 1.5vw;
+        float: left;
+    }
+    #question_text{
+        margin-top: -1vw;
+        text-align: left;
+        margin-left: 3.5vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        color: #F7654A;
+    }
+    #question_text2{
+        margin-left: 5vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 2vw;
+        color: #999999;
+    }
+    .partners{
+        margin-top: 8vw;
+        width: 100vw;
+        height: 28vw;
+        background: #404149;
+    }
+    .partners_box{
+        margin-top: -3vw;
+        margin-left: 28vw;
+        width: 44vw;
+        height: 8vw;
+    }
+    #partners_text{
+        padding-top: -2vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 10vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    #partners_img{
+        float: left;
+        margin-top: 1vw;
+        width: 8vw;
+        margin-left: 0.77vw;
+    }
+    .reviews{
+        width: 80vw;
+        height: 80vw;
+        margin-top: 8vw;
+    }
+    #reviews_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .reviews_item{
+        margin-left: 10vw;
+        float: left;
+        margin-top: 3.3vw;
+        width: 80vw;
+        height: 27vw;
+    }
+    .reviews_item2{
+        margin-left: 10vw;
+        float: left;
+        margin-top: 2vw;
+        width: 80vw;
+        height: 27vw;
+    }
+    #reviews_text1{
+        margin-left: 1.5vw;
+        text-align: left;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10vw;
+        text-transform: uppercase;
+        color: #F7654A;
+    }
+    #reviews_text2{
+        margin-left: 2vw;
+        margin-top: -7vw;
+        width: 80vw;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2vw;
+        color: #999999;
+    }
+    #reviews_text3{
+        margin-top: 5vw;
+        margin-left: -40vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.5vw;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .request2{
+        position: absolute;
+        margin-top: 25vw;
+        height: 20vw;
+        width: 100vw;
+        background: #F7654A;
+    }
+    .contacts{
+        margin-top: 50vw;
+        margin-left: 20vw;
+        width: 60vw;
+        height: 138vw;
+    }
+    #contacts_head_text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 5vw;
+        line-height: 2.4vw;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .contacts_item{
+        float: left;
+        margin-top: 3.9vw;
+        width: 60vw;
+        height: 30vw;
+    }
+    #contacts_img{
+        margin-top: -1vw;
+        width: 7vw;
+    }
+    #contacts_text1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 3vw;
+        text-align: center;
+        color: #999999;
+    }
+    #contacts_text2{
+        margin-top: 2vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 4vw;
+        text-align: center;
+        color: #000000;
+    }
+    .footer{
+        margin-top: 10vw;
+        background: #404149;
+        width: 100vw;
+        height: 5vw;
+    }
+    #footer_text1{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 10vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        color: #FFFFFF;
+    }
+    #footer_text2{
+        float: left;
+        margin-top: 1.5vw;
+        margin-left: 25vw;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5vw;
+        color: #FFFFFF;
+    }
+}
